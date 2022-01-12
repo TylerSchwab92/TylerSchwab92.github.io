@@ -1967,7 +1967,7 @@ input[type="radio"] + label:before {
 }
 
 ::-webkit-input-placeholder {
-	color: rgb(0, 0, 0) !important;
+	color: rgb(122, 151, 149) !important;
 	font-style: italic;
 	opacity: 1.0;
 }
