@@ -1796,10 +1796,7 @@ input, select, textarea {
 
 /* Form */
 
-	
-form[type=text] :focus {
-	border-color:rgb(241, 5, 5);
-}
+
 form {
 	color: #000000;
 	font-family: "Lato", sans-serif;
@@ -1812,7 +1809,7 @@ form {
 }
 
 label {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	display: block;
 	font-size: 0.9em;
 	font-weight: 700;
@@ -1937,9 +1934,9 @@ input[type="radio"] {
 
 		input[type="checkbox"] + label:before,
 		input[type="radio"] + label:before {
-			background: #000000;
+			background: #fffcfc;
 			border-radius: 5px;
-			border: solid 2px #000000;
+			border: solid 2px #ffffff;
 			content: '';
 			display: inline-block;
 			font-size: 0.8em;
@@ -2005,7 +2002,7 @@ input[type="radio"] + label:before {
 
 	.box {
 		border-radius: 5px;
-		border: solid 2px #e4e4e4;
+		border: solid 2px #fc0000;
 		margin-bottom: 2.25em;
 		padding: 1.5em;
 	}
